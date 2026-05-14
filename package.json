@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^1.15.2"
+  },
+  "name": "practice-html-and-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

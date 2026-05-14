@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeStore | Premium E-commerce Experience</title>
+    <meta name="description" content="Discover premium products at LuxeStore. Quality meets elegance in every item.">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- CSS Checkbox Hack for Dark Mode -->
+    <input type="checkbox" id="dark-mode-toggle" style="display: none;">
+    
+    <div class="page">
+        <!-- 1. NAVIGATION BAR -->
+        <header>
+            <div class="container">
+                <nav id="navbar">
+                    <a href="#" class="logo">LUXE<span>STORE</span></a>
+                    
+                    <!-- CSS Checkbox Hack for Mobile Menu -->
+                    <input type="checkbox" id="menu-toggle" style="display: none;">
+                    
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Shop</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+
+                    <!-- CSS Checkbox Hack for Search -->
+                    <input type="checkbox" id="search-toggle" style="display: none;">
+                    
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search products...">
+                    </div>
+
+                    <div class="nav-icons">
+                        <label for="dark-mode-toggle" class="icon-btn moon-icon"><i class="fas fa-moon"></i></label>
+                        <label for="search-toggle" class="icon-btn search-icon"><i class="fas fa-search"></i></label>
+                        <div class="icon-btn cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- 2. HERO SECTION -->
+            <section id="home" class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Elevate Your Daily <br><span class="hero-accent">Lifestyle.</span></h1>
+                        <p>Experience the perfect blend of minimalist design and high-end performance with our curated collection of lifestyle essentials.</p>
+                        <div class="hero-btns">
+                            <a href="#products" class="btn btn-primary">Shop Now</a>
+                            <a href="#categories" class="btn hero-secondary-btn">View Categories</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. CATEGORIES SECTION -->
+            <section id="categories" class="section-padding">
+                <div class="container">
+                    <h2 class="section-title">Shop by Category</h2>
+                    <div class="categories-grid">
+                        <a href="tech.html" target="_blank" class="category-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Tech</h3>
+                        </a>
+                        <a href="fashion.html" target="_blank" class="category-card">
+                            <i class="fas fa-tshirt"></i>
+                            <h3>Fashion</h3>
+                        </a>
+                        <a href="living.html" target="_blank" class="category-card">
+                            <i class="fas fa-couch"></i>
+                            <h3>Living</h3>
+                        </a>
+                        <a href="watch.html" target="_blank" class="category-card">
+                            <i class="fas fa-clock"></i>
+                            <h3>Watches</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. TOP PRODUCTS SECTION -->
+            <section id="products" class="section-padding products-section">
+                <div class="container">
+                    <div class="section-header">
+                        <div>
+                            <h2>Top Products</h2>
+                            <p class="text-muted">Handpicked for your style</p>
+                        </div>
+                        <a href="all-products.html" target="_blank" class="view-all-link">View All →</a>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <!-- Product 1 -->
+                        <div class="product-card">
+                            <div class="product-badge sale">Sale</div>
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Premium Headphones" class="product-image shimmer">
+                            <div class="product-info">
+                                <span class="product-tag">Electronics</span>
+                                <h3 class="product-title">Sonic Pro Headphones</h3>
+                                <div class="product-price">$299.00</div>
+                                <div class="add-to-cart"><i class="fas fa-plus"></i></div>
+                            </div>
+                        </div>
+
+                        <!-- Product 2 -->
+                        <div class="product-card">
+                            <div class="product-badge sale">Sale</div>
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Minimalist Watch" class="product-image shimmer">
+                            <div class="product-info">
+                                <span class="product-tag">Accessories</span>
+                                <h3 class="product-title">Lunar Matte Watch</h3>
+                                <div class="product-price">$189.00</div>
+                                <div class="add-to-cart"><i class="fas fa-plus"></i></div>
+                            </div>
+                        </div>
+
+                        <!-- Product 3 -->
+                        <div class="product-card">
+                            <div class="product-badge sale">Sale</div>
+                            <img src="Image/bag.jpg" alt="Canvas Backpack" class="product-image shimmer">
+                            <div class="product-info">
+                                <span class="product-tag">Lifestyle</span>
+                                <h3 class="product-title">Nomad Canvas Bag</h3>
+                                <div class="product-price">$120.00</div>
+                                <div class="add-to-cart"><i class="fas fa-plus"></i></div>
+                            </div>
+                        </div>
+
+                        <!-- Product 4 -->
+                        <div class="product-card">
+                            <div class="product-badge sale">Sale</div>
+                            <img src="https://images.unsplash.com/photo-1534073828943-f801091bb18c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Desk Lamp" class="product-image shimmer">
+                            <div class="product-info">
+                                <span class="product-tag">Home</span>
+                                <h3 class="product-title">Ambient Desk Lamp</h3>
+                                <div class="product-price">$89.00</div>
+                                <div class="add-to-cart"><i class="fas fa-plus"></i></div>
+                            </div>
+                        </div>
+
+                        <!-- Product 5 -->
+                        <div class="product-card">
+                            <div class="product-badge sale">Sale</div>
+                            <img src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mechanical Keyboard" class="product-image shimmer">
+                            <div class="product-info">
+                                <span class="product-tag">Tech</span>
+                                <h3 class="product-title">Tactile Keyboard</h3>
+                                <div class="product-price">$159.00</div>
+                                <div class="add-to-cart"><i class="fas fa-plus"></i></div>
+                            </div>
+                        </div>
+
+                        <!-- Product 6 -->
+                        <div class="product-card">
+                            <div class="product-badge sale">Sale</div>
+                            <img src="https://images.unsplash.com/photo-1627123424574-724758594e93?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Leather Wallet" class="product-image shimmer">
+                            <div class="product-info">
+                                <span class="product-tag">Fashion</span>
+                                <h3 class="product-title">Classic Leather Wallet</h3>
+                                <div class="product-price">$45.00</div>
+                                <div class="add-to-cart"><i class="fas fa-plus"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. ABOUT US SECTION -->
+            <section id="about" class="section-padding about-section">
+                <div class="container">
+                    <div class="about-grid">
+                        <div class="about-image">
+                            <img src="Image/store.jpg" alt="Our Store">
+                        </div>
+                        <div class="about-text">
+                            <h2>Crafting Excellence Since 2024</h2>
+                            <p>LuxeStore was born from a simple idea: that premium quality should be accessible to those who appreciate the finer details of life. We curate the world's most elegant lifestyle essentials.</p>
+                            <div class="about-stats">
+                                <div class="stat">
+                                    <h3>10k+</h3>
+                                    <p>Happy Clients</p>
+                                </div>
+                                <div class="stat">
+                                    <h3>500+</h3>
+                                    <p>Premium Products</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. REVIEWS SECTION -->
+            <section id="reviews" class="section-padding">
+                <div class="container">
+                    <h2 class="section-title">What Our Customers Say</h2>
+                    <div class="reviews-grid">
+                        <div class="review-card">
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The quality of products at LuxeStore is unparalleled. Every item feels premium and looks stunning in person."</p>
+                            <div class="user-info">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sarah J." class="user-img">
+                                <div>
+                                    <h4 class="user-name">Sarah Johnson</h4>
+                                    <p class="user-status">Verified Buyer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"Fast shipping and excellent customer service. I had a small issue with my order and it was resolved in minutes."</p>
+                            <div class="user-info">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Mark D." class="user-img">
+                                <div>
+                                    <h4 class="user-name">Mark Davis</h4>
+                                    <p class="user-status">Verified Buyer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 7. CONTACT SECTION -->
+            <section id="contact" class="section-padding contact-section">
+                <div class="container">
+                    <div class="contact-card">
+                        <div class="contact-info">
+                            <h2>Get In Touch</h2>
+                            <p>Have questions? Our team is here to help you 24/7.</p>
+                            <ul class="contact-list">
+                                <li><i class="fas fa-envelope"></i> hello@luxestore.com</li>
+                                <li><i class="fas fa-phone"></i> +1 (555) LUXE-001</li>
+                                <li><i class="fas fa-map-marker-alt"></i> 5th Avenue, New York</li>
+                            </ul>
+                        </div>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="How can we help?" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- 6. FOOTER SECTION -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <a href="#" class="logo footer-logo">LUXE<span>STORE</span></a>
+                        <p class="footer-text">Bringing you the finest selection of premium lifestyle products since 2024.</p>
+                        <div class="social-links footer-socials">
+                            <a href="#"><i class="fab fa-instagram fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">Sale</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Returns & Exchanges</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col newsletter">
+                        <h4>Join the Club</h4>
+                        <p class="newsletter-text">Get early access to new collections and exclusive offers.</p>
+                        <input type="email" placeholder="Your email address">
+                        <button class="btn btn-primary newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 LuxeStore. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

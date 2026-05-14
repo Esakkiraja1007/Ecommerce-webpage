@@ -1,0 +1,18 @@
+{
+  "editor.inlineSuggest.enabled": true,
+
+  "editor.quickSuggestions": {
+    "other": "true",
+    "comments": "on",
+    "strings": "on"
+  },
+
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.wordBasedSuggestions": "currentDocument",
+  "cSpell.words": [
+    "figcaption"
+  ],
+  "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": true,
+  "editor.inlineSuggest.edits.allowCodeShifting": "always",
+  "editor.inlineSuggest.edits.showCollapsed": false
+}
