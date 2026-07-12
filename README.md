@@ -67,9 +67,13 @@ git clone <your-github-repository-url>
 Add screenshots here.
 
 * Home Page
+  <img width="1905" height="871" alt="Screenshot 2026-07-12 065335" src="https://github.com/user-attachments/assets/a0fad196-3a7f-4f43-8b4c-e81d737b5aa8" />
+
 * Products Page
+<img width="1901" height="870" alt="Screenshot 2026-07-12 065319" src="https://github.com/user-attachments/assets/f209f32b-394e-4ec1-8066-f1ded37332ab" />
+  
 * Mobile View
-* <img width="1026" height="856" alt="image" src="https://github.com/user-attachments/assets/e3089b55-ec32-432c-aeb0-4efd086e915e" />
+  <img width="1026" height="856" alt="image" src="https://github.com/user-attachments/assets/e3089b55-ec32-432c-aeb0-4efd086e915e" />
 
 
 ---
@@ -92,7 +96,7 @@ Add screenshots here.
 **Esakki Raja**
 
 * LinkedIn: https://www.linkedin.com/in/esakki-raja-30244824b
-* GitHub: *(Add your GitHub profile link here)*
+* GitHub: https://github.com/Esakkiraja1007
 
 ---
 
